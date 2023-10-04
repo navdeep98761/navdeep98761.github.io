@@ -1,0 +1,10 @@
+/*Navdeepsingh*/
+th{background-color : purple ;}
+tr:nth-child(even){background-color : red ;}
+tr:nth-child(odd){background-color : yellow ;}
+th,td{width:150px ;}
+th{text-align : left ;}
+td{text-align :center ;}
+caption  {text-align : left ;
+	caption-side : bottom ;
+}

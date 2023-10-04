@@ -1,0 +1,52 @@
+/* CSS  bar styles  */
+
+header {
+
+background-color: #333;
+
+color: white;
+
+text-align: center;
+
+padding: 10 px 0;
+}
+
+nav ul {
+
+list-style-type: none;
+
+padding: 0;
+}
+
+nav ul li {
+
+display: inline;
+
+margin-right: 20px;
+
+}
+nav ul li a {
+
+text-decoration: none;
+
+color: white;
+
+font-weight: bold;
+
+}
+nav ul li a:hover {
+
+text-decoration: underline;
+}
+wrapper {
+
+display: flex;
+
+flex-wrap: wrap;
+}
+article{
+background-color : brown;
+border-radius :0.50 rem;
+margin: 0.5 rem ;
+flex :2;
+}
