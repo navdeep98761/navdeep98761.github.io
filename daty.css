@@ -45,7 +45,6 @@ display: flex;
 flex-wrap: wrap;
 }
 article{
-background-color : brown;
 border-radius :0.50 rem;
 margin: 0.5 rem ;
 flex :2;

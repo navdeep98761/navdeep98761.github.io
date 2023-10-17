@@ -1,0 +1,9 @@
+div.scroll-container {
+  overflow: auto;
+  white-space: nowrap;
+  padding: 1px;
+}
+
+div.scroll-container img {
+  padding: 1px;
+}

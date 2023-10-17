@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>CSS Grid - template-based placement</title>
+    <style>
+      body {
+        width: 90%;
+        max-width: 900px;
+        margin: 2em auto;
+        font: 0.9em/1.2 Arial, Helvetica, sans-serif;
+      }
+
+      .container {
+        display: grid;
+        grid-template-areas:
+          "header header"
+          "sidebar content"
+          "footer footer";
+        grid-template-columns: 1fr 3fr;
+        gap: 20px;
+      }
+
+      header {}
+	  
+
+      article {}
+
+      aside {}
+
+      footer {}
+
+
+      header,
+      footer {
+        border-radius: 5px;
+        padding: 10px;
+        background-color: rgb(207, 232, 220);
+        border: 2px solid rgb(79, 185, 227);
+      }
+
+      aside {
+        border-right: 1px solid #999;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>This is my lovely blog</header>
+      <article>
+        <p>1</p>
+      </article>
+      <aside>
+        <p>2</p>
+      </aside>
+      <footer>3</footer>
+    </div>
+  </body>
+
+</html>

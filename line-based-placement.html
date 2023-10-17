@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>CSS Grid - line-based placement</title>
+    <style>
+      body {
+        width: 90%;
+        max-width: 900px;
+        margin: 2em auto;
+        font: 0.9em/1.2 Arial, Helvetica, sans-serif;
+      }
+
+      .container {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        gap: 20px;
+      }
+
+      header {
+        grid-column: 1/3;
+        grid-row: 1;
+      }
+
+      article {
+        grid-column: 2;
+        grid-row: 2;
+      }
+
+      aside {
+        grid-column: 1;
+        grid-row: 2;
+      }
+
+      footer {
+        grid-column: 1/3;
+        grid-row: 3;
+      }
+
+
+      header,
+      footer {
+        border-radius: 5px;
+        padding: 10px;
+        background-color: rgb(207, 232, 220);
+        border: 2px solid rgb(79, 185, 227);
+      }
+
+      aside {
+        border-right: 1px solid #999;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>This is my lovely blog</header>
+      <article>
+        <h1>My article</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit vehicula ligula, ac cursus quam
+          lobortis eget. Vestibulum suscipit sollicitudin convallis. Vivamus in eros semper, vehicula nisi in, feugiat
+          lacus. Curabitur et tincidunt orci. Sed sit amet leo vel magna consequat tincidunt posuere vel velit. Donec
+          porttitor felis nec nunc porttitor semper. Nunc eu nunc efficitur, lacinia ante id, pretium massa. Duis lectus
+          mi, malesuada sit amet odio ac, fringilla blandit diam. Praesent eu posuere ante. Sed rutrum nec lectus vel
+          vulputate. Quisque efficitur dui justo, a fermentum neque bibendum eu. Maecenas sagittis vitae nisl sit amet
+          aliquet. Sed suscipit rutrum ullamcorper.
+        </p>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit vehicula ligula, ac cursus quam
+          lobortis eget. Vestibulum suscipit sollicitudin convallis. Vivamus in eros semper, vehicula nisi in, feugiat
+          lacus. Curabitur et tincidunt orci. Sed sit amet leo vel magna consequat tincidunt posuere vel velit. Donec
+          porttitor felis nec nunc porttitor semper. Nunc eu nunc efficitur, lacinia ante id, pretium massa. Duis lectus
+          mi, malesuada sit amet odio ac, fringilla blandit diam. Praesent eu posuere ante. Sed rutrum nec lectus vel
+          vulputate. Quisque efficitur dui justo, a fermentum neque bibendum eu. Maecenas sagittis vitae nisl sit amet
+          aliquet. Sed suscipit rutrum ullamcorper.
+        </p>
+      </article>
+      <aside>
+        <h2>Other things</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit vehicula ligula, ac cursus quam
+          lobortis eget. Vestibulum suscipit sollicitudin convallis. Vivamus in eros semper, vehicula nisi in, feugiat
+          lacus. Curabitur et tincidunt orci. Sed sit amet leo vel magna consequat tincidunt posuere vel velit. Donec
+          porttitor felis nec nunc porttitor semper. Nunc eu nunc efficitur, lacinia ante id, pretium massa. Duis lectus
+          mi, malesuada sit amet odio ac, fringilla blandit diam. Praesent eu posuere ante. Sed rutrum nec lectus vel
+          vulputate. Quisque efficitur dui justo, a fermentum neque bibendum eu. Maecenas sagittis vitae nisl sit amet
+          aliquet. Sed suscipit rutrum ullamcorper.
+        </p>
+      </aside>
+      <footer>Contact me@mysite.com</footer>
+    </div>
+  </body>
+
+</html>
