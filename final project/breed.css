@@ -1,0 +1,99 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('WhatsApp Image 2023-10-13 at 1.27.50 AM.jpeg'); 
+    background-size: cover;
+    color: #333; 
+}
+.welcome-text {
+  color: purple;
+}
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navigation bar styling */
+.navbar {
+    background-color: #fff; /* Navbar background color */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #333; /* Navbar text color */
+}
+
+/* Header styling */
+
+
+.welcome-text {
+    font-size: 2.5rem;
+}
+
+/* Main content styling */
+.container {
+    background-color: #fff; /* Content background color */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Article styling */
+article {
+    text-align: justify; /* Justify text in the article */
+}
+
+/* Sidebar styling */
+.col-md-4 {
+    background-color: #f8f9fa; /* Sidebar background color */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333; /* Footer background color */
+    color: #fff; /* Footer text color */
+    text-align: center;
+    padding: 10px;
+}
+
+/* Responsive styling */
+@media (max-width: 767px) {
+    .navbar-nav {
+        margin-top: 10px;
+    }
+
+    .jumbotron {
+        padding: 10px;
+    }
+
+    .container {
+        margin-top: 10px;
+    }
+
+    .col-md-4 {
+        margin-top: 10px;
+    }
+}
+.navbar {
+    background-color: #fff; /* Navbar background color */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #333; /* Navbar text color */
+}
+
+/* Header styling */
+.jumbotron {
+    background-color: #6c757d; /* Header background color */
+    padding: 20px;
+}

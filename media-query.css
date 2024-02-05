@@ -1,0 +1,68 @@
+body {
+    background-color: #f8f9fa; /* Bootstrap default background color */
+}
+
+.sidebar {
+    background-color: #343a40; /* Dark background color for the sidebar */
+    color:#ffffff; /* Text color for the sidebar */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    position: sticky;
+}
+.main-content {
+    background-color: #ffffff; /* Light background color for the main content */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    text-decoration: none;
+    color: #E8E8E8;
+	font-family:Verdana, Geneva, Tahoma, sans-serif ;
+	font-size:40px
+}
+header {
+    background-color:#0b090a;
+    color: #fff;
+    padding: 10px ;
+    text-align: center;
+	position: sticky;
+    top: 0;
+    width: 100%;
+	z-index: 1;
+}
+
+
+      nav ul {
+        list-style-type: none;
+        padding: 0px;
+        color: #9F9F9F;
+    }
+    
+    .un {
+      display: inline-block;
+      justify-content: space-between;
+      text-decoration: none;
+    }
+    
+    .un:after {
+      content: '';
+      width: 0px;
+      height: 2px;
+      display: block;
+      background:#9F9F9F;
+      transition: 300ms;
+    }
+    
+    .un:hover:after {
+      width: 100%;
+    }
+
+    header h1 {
+        text-decoration: none;
+        color: #E8E8E8;
+        font-family:Verdana, Geneva, Tahoma, sans-serif ;
+        font-size:40px
+    }

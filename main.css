@@ -1,0 +1,35 @@
+h1{color:red;}
+body {
+  background-image: url('https://cdn.pixabay.com/photo/2015/02/07/14/17/chihuahua-627299_1280.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.footer{
+	color:red;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.history,.about,.breed,.picture, .fun-facts {
+  margin: 20px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .flex-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}

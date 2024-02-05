@@ -1,0 +1,69 @@
+/* Navbar */
+.navbar {
+  margin-bottom: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.sidebar h3 {
+  margin-top: 0;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+/* Content */
+.container {
+  margin-top: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+  position:fixed;
+  width: 100%;
+  bottom:0;
+}
+.col-md-3 {
+    background-color: #f8f9fa; /* Sidebar background color */
+    padding: 20px;
+    border-radius: 10px;
+}
+.header {
+  color: red;
+}
+
+.content {
+  color: blue;
+}
+.welcome-text {
+  color: purple;
+}
+.amazing-text {
+  color: green;
+}
+.heading {
+  color: blue;
+}
+
+.paragraph {
+  color: red;
+}
+body {
+			 background-image: url('https://cdn.fotofits.com/petzlover/gallery/img/l/chihuahua-798508.jpg');
+			 background-repeat: no-repeat;
+			 background-attachment: fixed;
+			 background-size: 100% 100%;
+								}

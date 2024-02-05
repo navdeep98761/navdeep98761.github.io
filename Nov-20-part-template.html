@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Nov. 20 Participation</title>
+        <style>
+            body {
+                width: 80%;
+                max-width: 900px;
+                margin: 1rem auto;
+                padding: 0.25rem;
+                border: 1px solid black;
+            }
+
+            header {
+                display: flex;
+                justify-content: center;
+            }
+
+            h1,
+            #display {
+                margin: 0;
+            }
+
+            h3 {
+                margin: 0.25rem 0 0 0;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <header>
+            <h1>November 20<sup>th</sup> Participation - &lt;Name&gt;</h1>
+        </header>
+
+        <main>
+            <hr />
+            <section>
+                <h3>You entered:</h3>
+                <p id="display">Nothing yet!</p>
+                <br />
+
+                <form>
+                    <label for="userIn">Input:</label>
+                    <input type="text" id="userIn" placeholder="Enter text...">
+                    <input type="button" id="submit" value="Submit" onclick="userSubmit()">
+                </form>
+            </section>
+
+            <br />
+
+            <section>
+                <h3>Input History:</h3>
+                <ol id="histList">
+                </ol>
+            </section>
+        </main>
+
+        <footer>
+            <hr />
+            &copy; Red Deer Polytechnic | CC BY-SA-NC
+        </footer>
+		<script>
+           var inputHistory = [];		   // To store input history
+		   var previousinput="";
+          function userSubmit() {
+			var inputValue = document.getElementById("userIn").value.trim();
+
+			// Check if the input is not empty
+			if (inputValue !== "") {
+        
+				var displayElement = document.getElementById("display");
+				displayElement.textContent = "Current Input: " + inputValue;
+
+				 if (previousinput!==""){
+				 inputHistory.push(previousinput);}
+				
+				 
+
+				// Display input history
+			var histList = document.getElementById("histList");
+			histList.innerHTML = ""; 
+			for (var i = 0; i < inputHistory.length; i++) {
+            var listItem = document.createElement("li");
+            listItem.textContent = inputHistory[i];
+            histList.appendChild(listItem);
+        }
+		previousinput=inputValue;
+    }
+
+    document.getElementById("userIn").value = ""; // Clears input field upon clicking "Submit".
+}
+
+            
+        </script>
+
+        
+
+</html>

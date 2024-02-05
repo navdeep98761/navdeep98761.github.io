@@ -1,0 +1,51 @@
+body {
+    background-image: url('WhatsApp Image 2023-10-13 at 1.27.53 AM.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+header {
+    background-color: #333;
+    color:white;
+	text-align:center;
+	padding:10px 0 ;
+}
+
+nav ul {
+    list-style-type: none;
+   
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+	font-weight:bold;
+}
+
+h2 {
+    text-align: center;
+    color: blue;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+article {
+    background-color: white;
+    padding: 20px;
+    font-size: 14px;
+    color: black;
+}
+footer{color:red;
+		font-weight:bold;
+		font-size:20px;}
+
